@@ -52,4 +52,8 @@ Essas decisões contribuíram para uma modelagem mais limpa e um dashboard mais 
 
 O GIF abaixo apresenta a navegação entre páginas, aplicação de filtros e interação com os principais visuais, evidenciando a dinâmica da análise e a responsividade do modelo construído no Power BI.
 
+<p align="center">
+  <img src="analise_transporte_interestadual.gif" width="1100">
+</p>
+
 A visualização destaca o comportamento dos indicadores diante das segmentações temporais e geográficas, reforçando a proposta analítica desenvolvida.
