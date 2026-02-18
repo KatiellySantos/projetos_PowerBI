@@ -5,59 +5,51 @@ Desenvolvimento baseado em dados públicos da Agência Nacional de Transportes T
 O projeto integrou o tratamento e a organização dos dados em Python com a construção de um dashboard analítico no Power BI. A proposta foi transformar dados brutos, originalmente distribuídos em múltiplos arquivos, em uma base estruturada, confiável e preparada para análise. O foco esteve na organização das informações, padronização dos dados e criação de indicadores que permitissem uma visão clara do comportamento das viagens interestaduais.
 
 ## Tratamento de Dados – Python
-
 O tratamento foi realizado no script Pipeline_de_Dados_–_ANTT.py, responsável por consolidar, padronizar e estruturar os dados antes da importação no Power BI.
-
 A etapa contemplou:
-
 - Consolidação de múltiplos arquivos CSV em um único dataset
-
 - Tratamento de valores nulos
-
 - Padronização textual
-
 - Separação de cidade e estado
-
 - Criação de variáveis derivadas (categoria de gratuidade)
-
 - Renomeação e reorganização das colunas
-
 - Exportação para banco SQLite
 
 Essa etapa foi fundamental para garantir consistência, integridade e melhor desempenho na modelagem analítica.
 
-# Modelagem e Visualização – Power BI
-
+## Modelagem e Visualização – Power BI
 Com o dataset tratado e estruturado, foram desenvolvidas no Power BI:
-
-Medidas em DAX
-
-KPIs estratégicos
-
-Filtros interativos
-
-Visualizações analíticas
+- Medidas em DAX
+- KPIs estratégicos
+- Filtros interativos
+- Visualizações analíticas
 
 O dashboard permite análise temporal, geográfica e operacional dos dados, possibilitando identificar padrões de fluxo, concentração de passageiros e comportamento das rotas interestaduais.
 
-Indicadores Desenvolvidos
+## Indicadores Desenvolvidos
+- Total de Passageiros
+- Valor Médio das Tarifas
+- Receita Estimada
+- Cobertura de Estados
+- Rotas Ativas
 
-Total de Passageiros
+## Principais Análises
+- Fluxo de bilhetes por mês
+- Distribuição de bilhetes por estado
+- Origem | Destino | Passageiros
+- Distribuição por categoria de benefício tarifário
 
-Valor Médio das Tarifas
+## Decisões Técnicas
+Durante o desenvolvimento, algumas decisões foram adotadas para garantir melhor organização e desempenho:
+- Utilização de Python para consolidar e padronizar os dados antes da importação no Power BI
+- Estruturação de variáveis geográficas para segmentação eficiente
+- Criação de medidas em DAX para garantir cálculos dinâmicos
+- Armazenamento em SQLite como etapa intermediária
 
-Receita Estimada
+Essas decisões contribuíram para uma modelagem mais limpa e um dashboard mais eficiente.
 
-Cobertura de Estados
+## Demonstração Interativa do Dashboard
 
-Rotas Ativas
+O GIF abaixo apresenta a navegação entre páginas, aplicação de filtros e interação com os principais visuais, evidenciando a dinâmica da análise e a responsividade do modelo construído no Power BI.
 
-Principais Análises
-
-Fluxo de bilhetes por mês
-
-Distribuição de bilhetes por estado
-
-Origem x Destino x Passageiros
-
-Distribuição por categoria de benefício tarifário
+A visualização destaca o comportamento dos indicadores diante das segmentações temporais e geográficas, reforçando a proposta analítica desenvolvida.
