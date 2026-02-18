@@ -5,7 +5,7 @@ Desenvolvimento baseado em dados públicos da Agência Nacional de Transportes T
 O projeto integrou o tratamento e a organização dos dados em Python com a construção de um dashboard analítico no Power BI. A proposta foi transformar dados brutos, originalmente distribuídos em múltiplos arquivos, em uma base estruturada, confiável e preparada para análise. O foco esteve na organização das informações, padronização dos dados e criação de indicadores que permitissem uma visão clara do comportamento das viagens interestaduais.
 
 ## Tratamento de Dados – Python
-O tratamento foi realizado no script Pipeline_de_Dados_–_ANTT.py, responsável por consolidar, padronizar e estruturar os dados antes da importação no Power BI.
+O tratamento foi realizado no script [Pipeline de Dados – ANTT.ipynb](https://github.com/KatiellySantos/projetos_PowerBI/blob/958a450873e6276e0996bc33611a2ded2404931e/Projeto_An%C3%A1lise%20do%20Transporte%20Interestadual/Pipeline%20de%20Dados%20%E2%80%93%20ANTT.ipynb), responsável por consolidar, padronizar e estruturar os dados antes da importação no Power BI.
 A etapa contemplou:
 - Consolidação de múltiplos arquivos CSV em um único dataset
 - Tratamento de valores nulos
