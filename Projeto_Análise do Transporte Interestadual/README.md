@@ -48,8 +48,6 @@ Durante o desenvolvimento, algumas decisões foram adotadas para garantir melhor
 
 Essas decisões contribuíram para uma modelagem mais limpa e um dashboard mais eficiente.
 
-## Demonstração Interativa do Dashboard
-
 O GIF abaixo apresenta a navegação entre páginas, aplicação de filtros e interação com os principais visuais, evidenciando a dinâmica da análise e a responsividade do modelo construído no Power BI.
 
 <p align="center">
